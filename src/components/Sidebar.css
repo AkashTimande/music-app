@@ -1,0 +1,42 @@
+.sidebar-container {
+  width: 15%;
+  height: 910px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.logo {
+  color: white;
+  font-size: 48px;
+  font-family: cursive;
+  cursor: pointer;
+  margin: 12% 16%;
+}
+
+.sidebar-tabs {
+  color: rgb(157, 163, 174);
+  width: 70%;
+  margin: 17% auto;
+}
+
+.sidebar-tab {
+  padding: 8px;
+  font-size: 20px;
+  margin: 16px 12px;
+  font-family: sans-serif;
+  display: flex;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.sidebar-tab:hover {
+  color: rgb(82, 235, 227);
+}
+
+.sidebar-tab-logo {
+  width: 25%;
+}
+
+.sidebar-tab-name {
+  width: 75%;
+}

@@ -1,0 +1,92 @@
+.player-container {
+  background: rgb(25, 23, 33);
+  height: 910px;
+}
+
+.player-header {
+  height: 8%;
+  padding: 8px;
+}
+
+.player-site-header {
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  font-family: cursive;
+  padding: 0px 23px;
+  cursor: pointer;
+}
+
+.player-search-bar {
+  padding: 16px 8px;
+
+  align-items: center;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.player-search-bar-input {
+  width: 95%;
+  padding: 10px 8px;
+  background: rgb(37, 35, 34);
+  color: rgb(157, 163, 174);
+  border: none;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  display: block;
+  font-size: 18px;
+}
+
+.player-search-bar-input:focus {
+  outline: none;
+}
+
+.playerclose-icon {
+  color: rgb(157, 163, 174);
+  position: absolute;
+  right: 5%;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.player-content {
+  height: 82%;
+  display: flex;
+}
+
+.player-content-current-song {
+  width: 50%;
+  text-align: center;
+}
+
+.player-song-image {
+  width: 90%;
+  height: 80%;
+}
+
+.player-content-related-songs {
+  width: 50%;
+}
+
+.player-song-details {
+  text-align: left;
+  padding: 8px;
+  margin-left: 4%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player-song-details-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.player-song-details-singer {
+  font-size: 16px;
+  color: rgb(190, 185, 185);
+}
+
+.audio-player {
+  height: 10%;
+}

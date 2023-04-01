@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  background: rgb(25, 23, 33);
+  position: relative;
+}
+
+audio {
+  position: absolute;
+}

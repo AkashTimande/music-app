@@ -1,0 +1,59 @@
+.chart-item-container {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+}
+
+.first-column {
+  width: 10%;
+  color: white;
+}
+
+.second-column {
+  width: 80%;
+  display: flex;
+  padding: 0px 8px;
+  margin: 4px 0px;
+}
+
+.third-column {
+  width: 10%;
+  color: rgb(157, 163, 174);
+  font-size: 24px;
+}
+
+.chart-item-img {
+  width: 25%;
+}
+
+.chart-item-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 16%;
+}
+
+.chart-item-details {
+  width: 75%;
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-item-details-title {
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-item-details-artist {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(190, 185, 185);
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

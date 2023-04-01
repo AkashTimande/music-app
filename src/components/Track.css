@@ -1,0 +1,49 @@
+.track-section {
+  width: 21%;
+  padding: 12px 8px;
+  margin: 12px;
+  background: rgb(37, 35, 34);
+  cursor: pointer;
+  position: relative;
+}
+
+.track-image {
+  text-align: center;
+}
+
+.track-image-img {
+  height: 200px;
+  width: 200px;
+}
+
+.track-title {
+  color: white;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700px;
+  padding: 6px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track-artist {
+  color: rgb(190, 185, 185);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overlay-btn {
+  position: absolute;
+  color: white;
+  bottom: 49%;
+  left: 44%;
+  font-size: 24px;
+}
+
+.active-song {
+  opacity: 0.5;
+}

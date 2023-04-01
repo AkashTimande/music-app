@@ -1,0 +1,76 @@
+.rightSidebar-container {
+  width: 25%;
+  height: 910px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.charts-section {
+  padding: 16px;
+  height: 58%;
+  margin-top: 19%;
+}
+
+.charts-section-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 9%;
+}
+
+.charts-section-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.charts-section-header-title {
+  font-size: 32px;
+}
+
+.charts-section-header-more-btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.charts-section-content {
+  height: 91%;
+  overflow-y: hidden;
+}
+
+.artists-section {
+  height: 23%;
+}
+
+.artists-section-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 25%;
+  color: white;
+}
+
+.artists-section-header-title {
+  font-size: 32px;
+}
+
+.artists-section-header-more-btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.artists-section-container {
+  height: 75%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 4px 0px;
+}
+
+.artists-section-content-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
